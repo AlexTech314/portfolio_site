@@ -29,6 +29,7 @@ p{
 
 img{
     width: 100%;
+    height: auto;
 }
 
 header{
@@ -144,4 +145,69 @@ li{
     width: 100%;
     text-align: center;
     z-index: 1;
+}
+
+.landing-text h1{
+    font-size: 12rem;
+    font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h6{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.about.containter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+
+.about-heading h1{
+    font-size: 10rem;
+    opacity: 0.3;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.profile-img{
+    
+    flex: 1;
+}
+
+.about-details{
+    flex: 1;
+}
+
+.portfolio-description {
+    flex: 1;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+
+.fa-facebook-square:hover{
+    color: #4267b2;
 }

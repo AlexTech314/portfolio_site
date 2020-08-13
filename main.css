@@ -242,11 +242,12 @@ li{
 
 .about-p-tag{
     position: relative;
-    width:600px;
-    height:100px;  
+    width:100%;
+    height:100vh;  
     display: table; 
-  
-    left: 25%;
+
+    left: 0 auto;
+    right: 0 auto;
 }
 
 .about p tag{

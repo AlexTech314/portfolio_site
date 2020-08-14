@@ -150,6 +150,7 @@ li{
   }
 
 .nav-link {
+    
     font-family: 'The Historia Demo', sans-serif;
     font-size: 3rem;
     padding: 1rem;
@@ -408,12 +409,13 @@ li{
     border-left: 4px solid #ffe838;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);
-    margin: 0 auto;
-    position: relative;
+    margin-left: 25%;
+    margin-right: 15%;
+    position: sticky;
     padding: 5rem;
     list-style: none;
     text-align: left;
-    width: 70%;
+    width: 60%;
 }
 
 .timeline h1{
@@ -449,8 +451,9 @@ li{
     content: attr(data-date);
     left: -28rem;
     text-align: right;
-    min-width: 12rem;
+    /* min-width: 12rem; */
     font-size: 1.5rem;
+    overflow-wrap: normal;
 }
 
 .timeline .date::after{
@@ -500,6 +503,26 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: #221e3f;
     background-color: #ffe838;
+}
+
+@media (max-width: 765px) {
+    .nav-list{
+        flex-direction: column;
+
+    }
+
+    .nav-list li{
+        margin: 3rem;
+       
+    }
+}
+
+@media (max-width: 1167px) {
+    .timeline .date::before{
+      
+        text-align: center;
+        
+    }
 }
 
 

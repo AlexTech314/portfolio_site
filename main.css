@@ -487,6 +487,19 @@ form{
     font-size: 1.5rem;
 }
 
+
+.personality-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-weight: 0;
+    position: relative;
+    margin-bottom: 1rem;
+    
+}
+
+
 input,
 select,
 textarea{
@@ -512,6 +525,8 @@ input[type="submit"]:hover{
     color: #221e3f;
     background-color: #ffe838;
 }
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -586,17 +601,58 @@ input[type="submit"]:hover{
     }
 
     .timeline p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .section-heading{
-      
         margin-bottom: 5rem;
     }
 
     .portfolio-description{
         padding: 1rem;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 7rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.4rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+    }
+
+    .about p tag{
+        font-size: .9rem;
+    }
+
+    form{
+        width: 90%;
+    }
+
+    .portfolio-item{
+        font-size: 1.4rem;
+    }
+
+    .portfolio-item h1{
+        font-size: 2rem;
+    }
+
 }
 
 

@@ -18,7 +18,7 @@ body{
 }
 
 section{
-    padding: 6rem;
+    padding: 4rem 10rem;
 }
 
 a{
@@ -262,9 +262,11 @@ li{
 }
 
 .about p tag{
+    
     text-align:center; 
     vertical-align: middle;
-    display: table-cell;  
+    display: table-cell; 
+    
 }
 
 .personality-p-tag{

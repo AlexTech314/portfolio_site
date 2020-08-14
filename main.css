@@ -27,7 +27,7 @@ a{
 }
 
 p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -50,7 +50,7 @@ img{
 }
 
 .section-heading h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: rgba(255, 255, 255, .3);
     text-transform: uppercase;
     font-weight: 300;
@@ -267,6 +267,32 @@ li{
     display: table-cell;  
 }
 
+.personality-p-tag{
+    position: relative;
+    width:100%;
+    height:15vh;  
+    display: table; 
+
+    left: 0 auto;
+    right: 0 auto;
+   
+}
+
+.personality p tag{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;  
+    font-family: cursive;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    
+    
+}
+
+.personality-p-tag em{
+    margin-bottom: 2rem;
+}
+
 
 .about-heading{
     bottom: 2rem;
@@ -378,18 +404,18 @@ li{
     flex: 1;
 }
 
-.portfolio-description h6{
-    font-size: 3rem;
+.portfolio-description h1{
+    font-size: 2.5rem;
     font-weight: 300;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 
 .portfolio-description h6{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .portfolio-description .cta{
@@ -419,7 +445,7 @@ li{
 }
 
 .timeline h1{
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
@@ -427,7 +453,7 @@ li{
 }
 
 .timeline h6{
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     
     font-weight: 300;
     margin-bottom: 1rem;
@@ -495,8 +521,16 @@ form{
     text-transform: uppercase;
     font-weight: 0;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
+}
+
+.personality-p-tag a{
+    color:  #2f67cd;
+}
+
+.personality-p-tag a:hover{
+    color:  #f3e51a;
 }
 
 

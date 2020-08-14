@@ -92,18 +92,28 @@ img{
 }
 
 .propic{
-    display: block;
-    /* margin-left: auto;
+    
+    padding-top: 7.5rem;
+    /* display: block;
+    position: absolute;
+    margin-left: auto;
     margin-right: auto; */
-    width: 20%;
+    /* width: 28rem; */
     height: 50%;
     border-radius: 100%;
-    transform: translateX(200%)
+    /* margin: 0 auto; */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28rem;
+    
 }
 
 header{
     width: 100%;
     height: 100vh;
+  
 }
 
 .top-nav{
@@ -243,7 +253,7 @@ li{
 .about-p-tag{
     position: relative;
     width:100%;
-    height:100vh;  
+    height:15vh;  
     display: table; 
 
     left: 0 auto;
@@ -275,14 +285,14 @@ li{
     font-weight: 400;
 }
 
-.profile-img{
+/* .profile-img{
    display: flex;
    width: 50%;
    
    height: 10vh;
    justify-content: center;
    flex-shrink: 3;
-}
+} */
 
 .about-details{
     flex: 1;

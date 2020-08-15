@@ -100,13 +100,13 @@ img{
     margin-right: auto; */
     /* width: 28rem; */
     height: 50%;
-    border-radius: 100%;
+    border-radius: 80%;
     /* margin: 0 auto; */
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 28rem;
+    width: 29.4rem;
     
 }
 
@@ -562,6 +562,10 @@ input[type="submit"]:hover{
     background-color: #ffe838;
 }
 
+.fa-envelope:hover{
+    color: #d89090;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -645,7 +649,7 @@ input[type="submit"]:hover{
     }
 
     .portfolio-description{
-        padding: 1rem;
+        padding: 2rem;
     }
 }
 

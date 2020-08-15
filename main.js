@@ -16,9 +16,28 @@ $(document).ready(function () {
        
     });
 
+    // $(`.submit`).click(function (event) {
+        
+    //     event.preventDefault();
+    //     console.log('clicked submit');
+
+    //     let name =  $(`.name`).val()
+    //     let email = $(`.email`).val()
+    //     let subject = $(`.subject`).val()
+
+    //     if(!(email.length > 5 && email.includes('@') && email.includes('.'))) {
+    //         window.confirm("Please enter a valid email!");
+    //         event.preventDefault();
+    //     }     
+
+    //     console.log(name, email, subject);
+
+    // })
+
     AOS.init({
         easing: 'ease',
         duration: 1800,
         once: true
     });
 });
+

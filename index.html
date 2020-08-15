@@ -355,11 +355,11 @@ user can log in, add/edit events, and delete events, much like Google Calendar.
                 <h1>Contact</h1>
                 <h6>Lets talk!</h6>
             </div>
-            <form action="">
+            <form class="contact-form" action="" method="POST">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <input type="text" id="name" class="name" name="name" placeholder="Enter your name..." required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <input type="email" id="email" name="email" class="email" placeholder="Enter your email..." required>
                 <!-- <label for="services">Services:</label>
                 <select name="service" id="service">
                     <option value="Internship/Work Opportunity"></option>
@@ -367,8 +367,8 @@ user can log in, add/edit events, and delete events, much like Google Calendar.
                     <option value="Music Production Services"></option>
                 </select> -->
                 <label for="subject">Subject:</label>
-                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" value="Submit">
+                <textarea name="subject" class="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" class="submit" value="Submit">
             </form>
 
             <div class="copyright"></div>
@@ -386,6 +386,7 @@ user can log in, add/edit events, and delete events, much like Google Calendar.
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="main.js"></script>
 
 </body>

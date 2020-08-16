@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.personality_p_tag{
+    text-align: center;
+}
+
 html{
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
@@ -18,7 +22,10 @@ body{
 }
 
 section{
-    padding: 4rem 30rem;
+    padding-top: 0;
+    padding-bottom: 4rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
 }
 
 a{
@@ -29,6 +36,8 @@ a{
 p{
     font-size: 1.6rem;
     font-weight: 300;
+    line-height: 2.2rem;
+  
 }
 
 img{
@@ -261,9 +270,9 @@ li{
     right: 0 auto;
 }
 
-.about p tag{
+.about_p_tag{
     
-    text-align:center; 
+    text-align: center; 
     vertical-align: middle;
     display: table-cell; 
     

@@ -1778,7 +1778,7 @@ input[type="submit"]:hover{
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
     section{
         padding-top: 0;
         padding-bottom: 4rem;
@@ -1786,9 +1786,9 @@ input[type="submit"]:hover{
         padding-right: 0.5rem;
     }
 
- .landing-text h1{
-     font-size: 8rem;
- }
+    .landing-text h1{
+     font-size: 9rem;
+    }
 
     .skill h1{
         font-size: 1.55rem;
@@ -1818,7 +1818,7 @@ input[type="submit"]:hover{
     }
 
     .propic{
-        margin-top: 30%;
+        margin-top: 20%;
         height: 40rem;
         width: 24rem;
     }
@@ -1832,14 +1832,9 @@ input[type="submit"]:hover{
         height: 40rem;
         width: 24rem;
     }
-
-    .landing-text h1{
-        font-size: 11rem;
-    }
-
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 451px){
     .landing-text h1{
         font-size: 8rem;
     }
@@ -1849,6 +1844,54 @@ input[type="submit"]:hover{
         right: 1.5rem;
     }
 }
+
+@media screen and (max-height: 599px){
+    .landing-text h1{
+        font-size: 3rem;
+    }
+
+    .menu-toggler{
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .propic{
+        padding-top: 0rem;
+        height: 25rem;
+    }
+}
+
+@media screen and (height: 640px){
+    .landing-text h1{
+        font-size: 6rem;
+    }
+
+    .menu-toggler{
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .propic{
+        padding-top: 0rem;
+        height: 25rem;
+    }
+}
+
+@media screen and (max-height: 732px){
+    .landing-text h1{
+        font-size: 6rem;
+    }
+
+    .menu-toggler{
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+
+}
+
+
+
 
 
 
